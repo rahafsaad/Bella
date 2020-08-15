@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Bella</title><meta charest="utf-8">
+<style type="text/css">
+body { text-align: center;
+background-image: url("logo.png");
+background-position: top center; background-origin: padding-box;
+background-repeat: no-repeat;}
+.x { margin-left:-8em;}
+span { color:#BD859E; font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; margin-right:1em; margin-left:0.5em;}
+a  {text-decoration: none; color:#BD859E;  }
+.s {position: absolute;margin-left:31em;}
+span ul { display: none;
+         list-style: none;}
+span:hover ul { display: block;  text-decoration: blink; margin-top:4px; margin-left:-1.8em; }
+span ul li { margin-top:2px; border: none; background-color: black; border-radius: 50px; width:8em; font-size:82%;color: white;  }
+li a {color: white;}
+hr {color:#C6E4E6; margin-top:27em;}
+.hc { width: 400px;}
+.wh { width: 150px; height:170px; margin-left:36em; margin-top:-4em;}
+table {margin-top: 7em;  }
+h3 { font-size: 80%; color: gray;}
+footer { font-family:Arial, Helvetica, sans-serif;}
+.is { width:40px; height:40px; }
+.bi { background-color: #DCEBEB; border-radius:20px; width:500px; margin: 0 auto;}
+p:hover { background-color:#FBDEEB; }
+a img:hover { width:50px; height:50px;}
+.bp{ margin-left:45em; background-color: white; border-radius:30px; border:2px;}
+button:hover { cursor:pointer;}
+.b1{ margin-top:-0.2em; margin-left:-19em; background-color: white; border-radius:30px; border:2px; color:#DB2020; font-size:22px; position:absolute;}
+.da { position:absolute; margin-top:-1em; margin-left:-25em;}
+th img:hover { border:2px double #E3F1F3; border-radius:30px; }
+button img:hover { border:none;}
+button:hover { cursor:pointer;}
+.xi{margin-left:1em; height:20px; width:20px;}
+</style>
+<script>
+function start(){
+document.getElementById("i1").addEventListener("click",f1,false);
+document.getElementById("b").addEventListener("click",f2,false);
+document.getElementById("p").addEventListener("click",f3,false);
+}
+function f1(){
+document.getElementById("o").src="o5.png";
+document.getElementById("p").hidden="";
+}
+var total=0;
+function f2(){
+total+=12;
+alert("Serum is added YOUR TOTAL PURCHACE:"+total+"$");
+}
+function f3(){
+document.getElementById("o").src="";
+document.getElementById("p").hidden="hidden";
+}
+
+window.addEventListener("load",start,false);
+</script>
+
+</head>
+<body> 
+<hr class="hc"><br>
+<span class="x" ><a href="home.html">Home</a></span>
+<span class="s"><a href="productgallery.html">Products Gallery</a><ul><li><a href="makeup.html">Makeup</a></li><li><a href="personalcare.html">Personal Care</a></li>
+<li><a href="perfumes.html">Perfumes</a>
+</li><li><a href="haircare.html">Hair Care</a></li>
+<li><a href="mencare.html">Men Care</a></li>
+</ul></span>
+<span><a href="contactus.html">Contact us</a></span>
+<span><a href="aboutUs.html">About us</a></span>
+<span><a href="customerprofile.html">Customer Profile</a></span>
+<span><a href="pr.html">Product Register</a></span><br><br><br>
+<img class="da" id="o">
+<button id="p" class="b1" hidden="hidden" ><img class="xi" src="xicon.png"></button>
+<table><thead>
+<tr><th><img class="wh" id="i1" src="c1.jpg"></th></tr>
+<tr><th><button class="bp" id="b" ><img src="22.jpg"></button></th></tr>
+</thead></table>
+<p class="bi">
+<span><a href="home.html"><img  src="home.png" title="Click here to go to home page" class="is"></a></span>
+<span><a href="contactus.html"><img src="contact.png" title="Click here to go to contact us page" class="is"></a></span>
+<span><a href="aboutUs.html"><img src="ab.png" title="Click here to go to about us page" class="is"></a></span>
+<span><a href="customerprofile.html"><img title="Click here to go to customer profile page" src="user.png" class="is"></a></span>
+<span><a href="pr.html"><img src="preg.png"title="Click here to go to product register page" class="is"></a></span>
+<span><a href="productgallery.html"><img src="lipstick.png" title="Click here to go to product gallery page" class="is"></a></span>
+<span><a href="discount.html"><img class="is" src="di.png" title="Click here to calculate your discount"></a></span>
+<p>
+ <footer> <small>&copy; Rahaf "2018"</small> </footer> 
+</body></html>

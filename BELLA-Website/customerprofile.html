@@ -1,0 +1,90 @@
+
+<html>
+<head>
+<title>Bella</title><meta charest="utf-8">
+<style type="text/css">
+body { text-align: center;
+background-image: url("logo.png");
+background-position: top center; background-origin: padding-box;
+background-repeat: no-repeat;}
+.x { margin-left:-8em;}
+span { color:#BD859E; font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; margin-right:1em; margin-left:0.5em;}
+a  {text-decoration: none; color:#BD859E;  }
+.s {position: absolute;margin-left:31em;}
+span ul { display: none;
+         list-style: none;}
+span:hover ul { display: block;  text-decoration: blink; margin-top:4px; margin-left:-1.8em; }
+span ul li { margin-top:2px; border: none; background-color: black; border-radius: 50px; width:8em; font-size:82%;color: white;  }
+li a {color: white;}
+hr {color:#C6E4E6; margin-top:27em;}
+.hc { width: 400px;}
+p { font-size:100%; width:50%;  margin-left: 25%; font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; color: gray;}
+.cp { color:#5B4A52; font-size:120%; font-weight: lighter;}
+div { width:30%;  margin-left: 35%;  font-family:TeX Gyre Adventor, URW Gothic L, sans-serif; color: black;}
+footer { font-family:Arial, Helvetica, sans-serif;}
+.is { width:40px; height:40px; }
+.bi { background-color: #DCEBEB; border-radius:20px; width:500px; margin: 0 auto;}
+a img:hover { width:50px; height:50px;}
+p:hover { background-color:#FBDEEB;}
+</style></head>
+<body> 
+<hr class="hc"><br>
+<span class="x" ><a href="home.html">Home</a></span>
+<span class="s"><a href="productgallery.html">Products Gallery</a><ul><li><a href="makeup.html">Makeup</a></li><li><a href="personalcare.html">Personal Care</a></li>
+<li><a href="perfumes.html">Perfumes</a>
+</li><li><a href="haircare.html">Hair Care</a></li>
+<li><a href="mencare.html">Men Care</a></li>
+</ul></span>
+<span><a href="contactus.html">Contact us</a></span>
+<span><a href="aboutUs.html">About us</a></span>
+<span><a href="customerprofile.html">Customer Profile</a></span>
+<span><a href="pr.html">Product Register</a></span><br><br><br>
+<h3  class="cp"> Customer Profile: </h3>
+
+<div><em> Make sure to use a valid email address , you will need to verify it before you send any order </em> </div>
+
+<form method ="post" action ="http://www.detiel.com">
+
+  
+
+<p> <label>First Name:<br> <input name= "name" type ="text "  placeholder="Your first name.." size ="25" maxlength ="30"> </label> </p>
+<p> <label>Last Name: <br> <input name= "name" type ="text " placeholder="Your last name.." size ="25" maxlength ="30"> </label> </p>
+
+<p> <label>  Mobile-Phone  <br>    <input name= "name" type ="text " size ="25" maxlength ="30"> </label> </p>
+<p> <label> Email-Address:   <br>  <input type= "email"  placeholder="name@domain.com" required/  size ="25" maxlength ="30"> </label> </p>
+<p><label> Date of birth <br><input type ="date"/> </label>
+</p>
+
+
+<p> <label for ="txtList" >Country:<br>
+<input type ="text" id="txtList"
+placeholder ="select a country " list ="country" />
+<datalist id ="country" >
+
+<option value ="Saudi Arabia"> 
+<option value ="Canada"> 
+<option value ="USA"> 
+<option value ="UAE"> 
+<option value ="KW"> 
+<option value ="OMAN"> 
+<option value ="JORDAN"> 
+</datalist>
+ </label> </p>
+ <p> <label> comments: <br> <textarea name ="comments" rows ="4" cols="36">Enter your comment here </textarea> </label> </p>
+
+ <p>  <input type="submit"  value ="submit"/> 
+<input type ="reset" value ="clear" /> </p>
+
+</form>
+<p class="bi">
+<span><a href="home.html"><img  src="home.png" title="Click here to go to home page" class="is"></a></span>
+<span><a href="contactus.html"><img src="contact.png" title="Click here to go to contact us page" class="is"></a></span>
+<span><a href="aboutUs.html"><img src="ab.png" title="Click here to go to about us page" class="is"></a></span>
+<span><a href="customerprofile.html"><img title="Click here to go to customer profile page" src="user.png" class="is"></a></span>
+<span><a href="pr.html"><img src="preg.png"title="Click here to go to product register page" class="is"></a></span>
+<span><a href="productgallery.html"><img src="lipstick.png" title="Click here to go to product gallery page" class="is"></a></span>
+<span><a href="discount.html"><img class="is" src="di.png" title="Click here to calculate your discount"></a></span>
+<p>
+ <footer> <small>&copy; Rahaf "2018"</small> </footer> 
+</body>
+</html>

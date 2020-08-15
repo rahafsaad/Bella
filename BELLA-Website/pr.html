@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Bella</title><meta charest="utf-8">
+<style type="text/css">
+body { text-align: center;
+background-image: url("logo.png");
+background-position: top center; background-origin: padding-box;
+background-repeat: no-repeat;}
+.x { margin-left:-8em;}
+span { color:#BD859E; font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; margin-right:1em; margin-left:0.5em;}
+a  {text-decoration: none; color:#BD859E;  }
+.s {position: absolute;margin-left:31em;}
+span ul { display: none;
+         list-style: none;}
+span:hover ul { display: block;  text-decoration: blink; margin-top:4px; margin-left:-1.8em; }
+span ul li { margin-top:2px; border: none; background-color: black; border-radius: 50px; width:8em; font-size:82%;color: white;  }
+li a {color: white;}
+hr {color:#C6E4E6; margin-top:27em;}
+.hc { width: 400px;}
+.wh { margin-left:22em;width: 150px; height:200px;}
+strong {font-size:130%; }
+h3 { font-size: 80%; color: gray;}
+footer{ font-family:Arial, Helvetica, sans-serif;}
+
+.is { width:40px; height:40px; }
+.bi { background-color: #DCEBEB; border-radius:20px; width:500px; margin: 0 auto;}
+a img:hover { width:50px; height:50px;}
+p:hover { background-color:#FBDEEB; }
+.gg {  border-radius:30px; margin-left:4em;width:700px; height:250px;}
+.g1 {    border-radius:30px; width:300px; height:250px; }
+h2 { text-align:center; color:#A66373; font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;}
+
+</style>
+
+</head>
+<body> 
+<hr class="hc"><br>
+<span class="x" ><a href="home.html">Home</a></span>
+<span class="s"><a href="productgallery.html">Products Gallery</a><ul><li><a href="makeup.html">Makeup</a></li><li><a href="personalcare.html">Personal Care</a></li>
+<li><a href="perfumes.html">Perfumes</a>
+</li><li><a href="haircare.html">Hair Care</a></li>
+<li><a href="mencare.html">Men Care</a></li>
+</ul></span>
+<span><a href="contactus.html">Contact us</a></span>
+<span><a href="aboutUs.html">About us</a></span>
+<span><a href="customerprofile.html">Customer Profile</a></span>
+<span><a href="pr.html">Product Register</a></span><br><br><br>
+<h2>REGISTER THE PRODUCT</h2>
+<form method="post" action="form.php">
+<label>NAME:</label><br>
+<input type="text" name="name" required><br><br>
+<label>PRICE:</label><br>
+<input type="text" name="price" required ><br><br>
+<label>CODE NUMBER:</label><br>
+<input type="tel"required  pattern="\d{2}-\d{3}" placeholder="(22-040)" name="code"><br><br>
+<label>ORIGIN COUNTRY:</label><br>
+<input type="text" required name="country"><br><br>
+<label>EXPIRE DATE:</label><br>
+<input type="date" required name="ex"><br><br>
+<input type="submit" value="Register"><input type="reset" value="Clear">
+</form>
+
+
+<br><br>
+<p class="bi">
+<span><a href="home.html"><img  src="home.png" title="Click here to go to home page" class="is"></a></span>
+<span><a href="contactus.html"><img src="contact.png" title="Click here to go to contact us page" class="is"></a></span>
+<span><a href="aboutUs.html"><img src="ab.png" title="Click here to go to about us page" class="is"></a></span>
+<span><a href="customerprofile.html"><img title="Click here to go to customer profile page" src="user.png" class="is"></a></span>
+<span><a href="pr.html"><img src="preg.png"title="Click here to go to product register page" class="is"></a></span>
+<span><a href="productgallery.html"><img src="lipstick.png" title="Click here to go to product gallery page" class="is"></a></span>
+<span><a href="discount.html"><img class="is" src="di.png" title="Click here to calculate your discount"></a></span>
+<p>
+ <footer> <small>&copy; Rahaf "2018"</small> </footer> 
+</body></html>
